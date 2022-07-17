@@ -1,0 +1,28 @@
+.section-3{
+    margin-top: 200px;
+
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    &__itemcha{
+        width: 445px;
+    }
+
+    &__h4{
+        font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+width: 300px;
+    }
+
+    &__text{
+        color: #939CAA;
+        font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+    }
+}

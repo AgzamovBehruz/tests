@@ -1,0 +1,66 @@
+.section-5{
+
+
+
+    &__title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 48px;
+line-height: 48px;
+color: #495567;
+padding-top: 100px;
+    }
+
+    &__text{
+        font-weight: 700;
+        font-size: 48px;
+line-height: 48px;
+color: #495567;
+margin-top: 50px;
+
+    }
+
+
+    &__description{
+        font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #495567;
+    }
+
+
+    &__list{
+        transform: translateY(-50px);
+        list-style-type: none;
+        margin-left: 500px;
+    }
+
+
+    &__item{
+        width: 730px;
+        height: 181px;
+        padding: 40px 40px;
+        background-color: #ccc;
+        border-radius: 5px;
+
+    }
+
+
+    &__h4{
+        color: #495567;
+        font-weight: 700;
+font-size: 26px;
+line-height: 28px;
+transform: translateY(-10px);
+    }
+
+
+    &__item-2{
+        margin-top: 15px;
+        border-radius: 5px;
+        background-color: #ccc;
+        width: 730px;
+        height: 92px;
+        padding: 40px 40px;
+    }
+}

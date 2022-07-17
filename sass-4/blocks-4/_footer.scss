@@ -1,0 +1,52 @@
+.footer{
+    width: 1517px;
+    background-color: #333A44;
+    padding: 25px 165px;
+    
+    
+    &__nav{
+        display: flex;
+        align-items: center;
+    } 
+    
+    &__list{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+    
+    &__box{
+        width: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__link{
+        text-decoration: none;
+        color: #939CAA;
+        font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+
+    &:hover{
+        color: #FCB72B;
+    }
+    }
+    
+    &__item{
+        margin-left: 25px;
+    }
+
+    &__list2{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+    
+}
+
+svg path:hover{
+    fill: #fff;
+}

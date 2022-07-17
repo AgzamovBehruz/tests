@@ -1,0 +1,44 @@
+.section-1{
+    width: 1517px;
+    height: 620px;
+    background-image: url("../images/jpg/Bitmap.jpg");
+    padding: 170px 0px;
+
+
+    &__title{
+        color: #fff;
+        width: 500px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        transform: translateX(160px);
+    }
+
+    &__box{
+        display: flex;
+        align-items: center;
+    }
+
+    
+
+    &__text{
+        color: #fff;
+        font-weight: 400;
+        width: 380px;
+font-size: 15px;
+line-height: 25px;
+transform: translateX(30px);
+padding-right: 30px;
+    }
+
+    &__image2{
+        transform: translateY(64px);
+        
+    }
+
+    &__scotin{
+        margin-left: 233px;
+    }
+}
+
+

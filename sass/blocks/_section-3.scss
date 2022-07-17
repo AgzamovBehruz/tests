@@ -1,0 +1,31 @@
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 180px;
+    
+
+    
+
+    &__title{
+        color: #495567;
+        font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    width: 340px;
+    padding-bottom: 40px;
+    }
+
+    &__text{
+        color: #939CAA;
+        font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+width: 445px;
+padding-bottom: 30px;
+    }
+
+    &__section-5{
+        border-radius: 50%;
+    }
+}

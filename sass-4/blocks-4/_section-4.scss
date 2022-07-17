@@ -1,0 +1,18 @@
+.section-4{
+    background-image: url("../images/jpg/Mask.jpg");
+    width: 1517px;
+    height: 230px;
+    margin-top: 180px;
+    padding: 0px 166px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__title{
+        color: #fff;
+        font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+width: 365px;
+    }
+}

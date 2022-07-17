@@ -1,0 +1,247 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  padding: 25px 0 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.header__box {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__link {
+  text-decoration: none;
+  color: #939CAA;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+}
+.header__link:hover {
+  color: #FCB72B;
+}
+.header__item {
+  margin-left: 45px;
+}
+.header__scotin {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  display: inline-block;
+  margin-left: auto;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #FCB72B;
+  padding: 15px 45px;
+  background-color: #FCB72B;
+}
+.header__scotin:hover {
+  background: none;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+}
+
+.section-1 {
+  width: 1517px;
+  height: 620px;
+  background-image: url("../images/jpg/Bitmap.jpg");
+  padding: 170px 0px;
+}
+.section-1__title {
+  color: #fff;
+  width: 500px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  transform: translateX(160px);
+}
+.section-1__box {
+  display: flex;
+  align-items: center;
+}
+.section-1__text {
+  color: #fff;
+  font-weight: 400;
+  width: 380px;
+  font-size: 15px;
+  line-height: 25px;
+  transform: translateX(30px);
+  padding-right: 30px;
+}
+.section-1__image2 {
+  transform: translateY(64px);
+}
+.section-1__scotin {
+  margin-left: 233px;
+}
+
+.section-2 {
+  margin-top: 120px;
+}
+.section-2__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.section-2__title {
+  color: #495567;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 22px;
+}
+.section-2__text {
+  color: #939CAA;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+.section-2__item {
+  margin-right: 54px;
+  width: 320px;
+}
+
+.section-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+.section-3__title {
+  color: #495567;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  width: 340px;
+  padding-bottom: 40px;
+}
+.section-3__text {
+  color: #939CAA;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  width: 445px;
+  padding-bottom: 30px;
+}
+.section-3__section-5 {
+  border-radius: 50%;
+}
+
+.section-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+.section-4__title {
+  color: #495567;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  width: 340px;
+  padding-bottom: 40px;
+}
+.section-4__text {
+  color: #939CAA;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  width: 445px;
+  padding-bottom: 30px;
+}
+
+.section-5 {
+  background-image: url("../images/jpg/Mask.jpg");
+  width: 1517px;
+  height: 230px;
+  margin-top: 180px;
+  padding: 0px 166px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-5__title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  width: 365px;
+}
+
+.footer {
+  width: 1517px;
+  background-color: #333A44;
+  padding: 25px 165px;
+}
+.footer__nav {
+  display: flex;
+  align-items: center;
+}
+.footer__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.footer__box {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__link {
+  text-decoration: none;
+  color: #939CAA;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+}
+.footer__link:hover {
+  color: #FCB72B;
+}
+.footer__item {
+  margin-left: 25px;
+}
+.footer__list2 {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+svg path:hover {
+  fill: #fff;
+}/*# sourceMappingURL=main.css.map */
